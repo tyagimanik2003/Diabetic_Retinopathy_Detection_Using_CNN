@@ -34,7 +34,7 @@ def convert_rgba_to_rgb(rgba_image):
 @st.cache_resource
 def load_model():
 
-    model=tf.keras.models.load_model('D:\diabetes Retina\main_model.h5')
+    model=tf.keras.models.load_model('main_model.h5')
     return model 
 
 def load_image(image_file):
@@ -72,7 +72,7 @@ def predict_diabetic_retinopathy(image_file, _model):
     return predicted_class
 
 st.set_page_config(layout="wide")
-add_bg_from_local('D:\diabetes Retina\image.png')
+add_bg_from_local('image.png')
 st.markdown('<style>' + open('style.css').read() + '</style>', unsafe_allow_html=True)
 
 
