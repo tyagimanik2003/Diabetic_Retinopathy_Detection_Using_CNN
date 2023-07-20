@@ -155,26 +155,3 @@ elif tabs == 'DR Predictor':
             st.write("Predicted Class: No Diabetic Retinopathy detected")
         else:
             st.write("Predicted Class: Diabetic Retinopathy detected")
-
-
-
-
-    
-# with st.sidebar:
-#         tabs = on_hover_tabs(tabName=['Dashboard', 'Money', 'Economy'], 
-#                              iconName=['dashboard', 'money', 'economy'],
-#                              styles = {'navtab': {'background-color':'#111',
-#                                                   'color': '#818181',
-#                                                   'font-size': '18px',
-#                                                   'transition': '.3s',
-#                                                   'white-space': 'nowrap',
-#                                                   'text-transform': 'uppercase'},
-#                                        'tabOptionsStyle': {':hover :hover': {'color': 'green',
-#                                                                       'cursor': 'pointer'}},
-#                                        'iconStyle':{'position':'fixed',
-#                                                     'left':'7.5px',
-#                                                     'text-align': 'left'},
-#                                        'tabStyle' : {'list-style-type': 'none',
-#                                                      'margin-bottom': '30px',
-#                                                      'padding-left': '30px'}},
-#                              key="1")
